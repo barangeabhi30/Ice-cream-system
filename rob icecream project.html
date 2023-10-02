@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice cream project</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px; 
+        }
+        header{
+            height: 130px;
+            width: 100%;
+            background-color: pink;
+        }
+
+        .first{
+            position: relative;
+            top: 10px;
+            left: 200px;
+        }
+
+        .second{
+            position: relative;
+            left: 260px;
+            top: -10px;
+        }
+
+        .third{
+            position: relative;
+            left: 310px;
+            top: -32px;
+            color: blue;
+        }
+
+        .one{
+            position: relative;
+            top: -50px;
+            right: -1000px;
+            
+        }
+
+        .two{
+            position: relative;
+            top: -50px;
+            right: -1020px;
+        }
+
+        .three{
+            position: relative;
+            top: -50px;
+            right: -1030px;
+        }
+
+        .four{
+            position: relative;
+            top: -50px;
+            right: -1040px;
+        }
+
+        .five{
+            position: relative;
+            top: -50px;
+            right: -1050px;
+        }
+
+        nav{
+            position: relative;
+            top: -30px;
+            height: 100px;
+            width: 90%;
+            margin-left: 5%;
+            background-color:aqua;
+            border-radius: 290px;
+        }
+
+        nav ul{
+            
+            height: 20px;
+            padding-left: 0px;
+            
+        }
+
+        nav ul li{
+            display: inline-block;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 19px 11px;
+            line-height: 30px;
+        }
+
+        .kkr{
+            position: relative;
+            left: 180px;
+            top: 30px;
+            font-size: 20px;
+        }
+
+        .csk{
+            position: relative;
+            left: 190px;
+            top: 30px;
+            font-size: 20px;
+        }
+
+        .dc{
+            position: relative;
+            left: 200px;
+            top: 30px;
+            font-size: 20px;
+        }
+
+        .rcb{
+            position: relative;
+            left: 700px;
+            top: 30px;
+            font-size: 20px;
+        }
+
+        .kxp{
+            position: relative;
+            left: 710px;
+            top: 30px;
+            font-size: 20px;
+        }
+        .pk{
+            position: relative;
+            left:720px;
+            top: 30px;
+            font-size: 20px;
+        }
+
+        .ice{
+            position: relative;
+            left: 500px;
+            bottom: 10px;
+            font-size: 70px;
+
+        }
+
+        .containor{
+            
+            height: 90vh;
+            width: 100%;
+            background-image: url("icecream.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+    top: -100px;
+    z-index: -10;
+        }
+
+        .overlay{
+            background: rgba(240, 250,255, 0);
+            height: 90vh;
+            width: 100%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .content{
+            text-align: center;
+            color: white;
+            line-height: 70px;
+            font-size: 2em;
+        }
+
+        .head1{
+            
+            position: relative;
+            left: 330px;
+        }
+
+        .head2{
+            
+            position: relative;
+            left: 350px;
+        }
+
+        .head3{
+            
+            position: relative;
+            left: 350px;
+        }
+
+        .btn{
+            position: relative;
+            width: 150px;
+            padding: 15px;
+            left: 350px;
+            color: black;
+            border-radius: 70px;
+            background-color: pink;
+        }
+
+
+        .div1{
+            height: 500px;
+            width: 100%;
+            background-color: aqua;
+        }
+
+        .head4{
+            
+            position: relative;
+            left: 500px;
+        }
+
+        .head5{
+            
+            position: relative;
+            left: 550px;
+        }
+
+        .head6{
+            font-size: 30px;
+            position: relative;
+            left: 20px;
+        }
+
+        .head7{
+            font-size: 30px;
+            position: relative;
+            left: 20px;
+        }
+
+        .hlo{
+            height: 425px;
+            width: 33%;
+            background-color: aqua;
+            float: left;
+        
+
+        }
+
+        .hii{
+            height: 425px;
+            width: 33%;
+            background-color: aqua;
+            float: left;
+        }
+
+        .hil{
+            height: 425px;
+            width: 34%;
+            background-color: aqua;
+            margin-left: 66%;
+        }
+
+        .btn1{
+            position: relative;
+            bottom: -180px;
+            width: 150px;
+            padding: 15px;
+            left: 30px;
+            color: white;
+            border-radius: 70px;
+            background-color: skyblue;
+        }
+
+        .btn2{
+            position: relative;
+            bottom: -180px;
+            width: 150px;
+            padding: 15px;
+            left: 30px;
+            color: white;
+            border-radius: 70px;
+            background-color: pink;
+            
+        }
+
+        .para1{
+            text-align:left;
+            position: relative;
+            top: 20px;
+            position: relative;
+            left: 20px;
+        }
+
+        .para2{
+            text-align:left;
+            position: relative;
+            top: 20px;
+            position: relative;
+            left: 20px;
+        }
+
+        .second2{
+            height: 500px;
+            width: 100%;
+            background-color: brown;
+        }
+
+        .ab{
+            height: 500px;
+            width: 50%;
+            background-color: lightblue;
+            float: left;
+        }
+
+        .vk{
+            height: 500px;
+            width: 50%;
+            background-color: pink;
+            margin-left: 50%;
+        }
+
+        .btn3{
+            position: relative;
+            top: 110px;
+            padding: 35px;
+            left: 70px;
+            color: blue;
+            border-radius: 100px;
+            background-color: aqua;
+            font-size: 20px;
+            
+        }
+
+         .btn4{
+            position: relative;
+            width: 150px;
+            top: 200px;
+            padding: 15px;
+            left: 280px;
+            color: white;
+            border-radius: 100px;
+            background-color:skyblue;
+            
+        }
+
+        .head8{
+            position: relative;
+            top: 150px;
+            left: 250px;
+            color: white;
+        }
+
+        .para3{
+            position: relative;
+            top: 170px;
+            left: 10px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        .third3{
+            height: 500px;
+            width: 100%;
+            background-color: skyblue;
+        }
+
+        .head9{
+            height: 160px;
+            width: 100%;
+            background-color: white;
+        }
+
+        .section1{
+            height: 340px;
+            width: 30%;
+            background-color: white;
+            float: left;
+            margin-left: 0px;
+            margin-right: 10px;
+            border-radius: 20px;
+           
+        }
+
+         .section2{
+            height: 340px;
+            width: 30%;
+            background-color: white;
+            float: left;
+            margin-left: 30px ;
+            border-radius: 20px;
+            
+           
+        }
+
+         .section3{
+            height: 340px;
+            width: 34%;
+            background-color: white;
+            margin-left: 66%;
+            border-radius: 20px;
+            
+            
+             
+             
+        }
+
+        .img1{
+            position: relative;
+            top: -20px;
+            left: 150px;
+           
+        }
+
+        .img2{
+            position: relative;
+            top: -20px;
+            left: 150px;
+           
+        }
+
+        .img3{
+            position: relative;
+            top: -20px;
+            left: 180px;
+           
+        }
+
+        .para4{
+            position: relative;
+            left: 10px;
+            text-align: center;
+            top: 40px;
+        }
+
+    .btn5{
+        position: relative;
+        bottom: -100px;
+        left: 150px;
+        font-size: 20px;
+        color: blue;
+    }
+
+    .para5{
+        position: relative;
+        left: 10px;
+        text-align: center;
+        top: 40px;
+    }
+
+.btn6{
+    position: relative;
+    bottom: -100px;
+    left: 150px;
+    font-size: 20px;
+    color: blue;
+}
+
+.para6{
+    position: relative;
+    left: 10px;
+    text-align: center;
+    top: 40px;
+}
+
+.btn7{
+position: relative;
+bottom: -100px;
+left: 150px;
+font-size: 20px;
+color: blue;
+}    
+
+     .fourth4{
+        height: 600px;
+        width: 100%;
+        background-color: violet;
+        text-align: center;
+     }
+
+     .one1{
+        height: 250px;
+        width: 33%;
+        background-color: purple;
+        float: left;
+     }
+
+     .one2{
+        height: 250px;
+        width: 33%;
+        background-color: yellow;
+        float: left;
+     }
+
+     .one3{
+        height: 250px;
+        width: 33%;
+        background-color: green;
+        margin-left: 66%;
+     }
+
+     .one4{
+        height: 250px;
+        width: 33%;
+        background-color: purple;
+        float: left;
+     }
+
+     .one5{
+        height: 250px;
+        width: 33%;
+        background-color: yellow;
+        float: left;
+     }
+
+     .one6{
+        height: 250px;
+        width: 33%;
+        background-color: green;
+        margin-left: 66%;
+     }
+
+     .fifth5{
+        height: 480px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .two1{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        float: left;
+        border-radius: 10px;
+        margin-right: 30px;
+        position: relative;
+        top: 30px;
+    }
+
+     .two2{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        float: left;
+         border-radius: 10px;
+        margin-right: 30px;
+        position: relative;
+        top: 30px;
+    }
+     .two3{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        float: left;
+        border-radius: 10px;
+        margin-right: 20px;
+        position: relative;
+        top: 30px;
+    }
+    
+     .two4{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        margin-left: 75%;
+         border-radius: 10px;
+         position: relative;
+        top: 30px;
+        
+    }
+
+    .btn8{
+        position: relative;
+        padding: 5px;
+        width: 20%;
+        height: 50px;
+        left: 120px;
+        background-color: pink;
+        top: -80px;
+    }
+
+    .img5{
+        position: relative;
+        
+        top: 35px;
+        left: 30px;
+        border-radius: 200px;
+    }
+
+    .head10{
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    .btn9{
+        position: relative;
+        height: 40px;
+        width: 30%;
+        padding: 10px;
+        left: 90px;
+        top: 70px;
+        border-radius: 20px;
+        background-color: slateblue;
+        color: white;
+    }
+
+    .img6{
+        position: relative;
+        
+        top: 35px;
+        left: 30px;
+        border-radius: 200px;
+    }
+
+    .head11{
+        text-align: center;
+        position: relative;
+        top: 190px;
+    }
+
+    .btn10{
+        position: relative;
+        height: 40px;
+        width: 30%;
+        padding: 10px;
+        left: 90px;
+        top: 70px;
+        border-radius: 20px;
+        background-color: slateblue;
+        color: white;
+    }
+
+    .img7{
+        position: relative;
+        
+        top: 35px;
+        left: 30px;
+        border-radius: 200px;
+    }
+
+    .head12{
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    .btn11{
+        position: relative;
+        height: 40px;
+        width: 30%;
+        padding: 10px;
+        left: 90px;
+        top: 70px;
+        border-radius: 20px;
+        background-color: slateblue;
+        color: white;
+    }
+
+    .img8{
+        position: relative;
+        
+        top: 35px;
+        left: 30px;
+        border-radius: 200px;
+    }
+
+    .head10{
+        text-align: center;
+        position: relative;
+        top: 50px;
+    }
+
+    .btn12{
+        position: relative;
+        height: 40px;
+        width: 30%;
+        padding: 10px;
+        left: 90px;
+        top: 70px;
+        border-radius: 20px;
+        background-color: slateblue;
+        color: white;
+    }
+
+    .sixth6{
+        height: 450px;
+        width: 100%;
+        background-color: skyblue;
+    }
+
+    .three1{
+        height: 300px;
+        width: 30%;
+        background-color: white;
+        float: left;
+        position: relative;
+        top: 75px;
+        margin-right: 20px;
+       
+    }
+
+    .three2{
+        height: 300px;
+        width: 30%;
+        background-color: white;
+        float: left;
+         position: relative;
+        top: 75px;
+         margin-left: 20px;
+    }
+
+    .three3{
+        height: 300px;
+        width: 30%;
+        background-color: white;
+        margin-left: 66%;
+        position: relative;
+        top: 75px;
+    }
+
+    .img7{
+        position: relative;
+        left: 160px;
+        top: -55px;
+        border-radius: 200px;
+    }
+
+    .img8{
+        position: relative;
+        left: 160px;
+        
+        top: -55px;
+        border-radius: 200px;
+    }
+
+    .img9{
+        position: relative;
+        left: 160px;
+        top: -55px;
+        border-radius: 200px;
+    }
+
+    .img10{
+        position: relative;
+        left: 170px;
+        top: 35px;
+       
+    }
+
+    .img11{
+        position: relative;
+        left: 170px;
+        top: 35px;
+       
+    }
+
+    .img12{
+        position: relative;
+        left: 170px;
+        top: 35px;
+       
+    }
+
+    .four4{
+        height: 600px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .img13{
+        position: relative;
+        left: 700px;
+        top: 50px;
+    }
+
+
+    .para7{
+        position: relative;
+        top: 70px;
+        font-size: 20px;
+    }
+
+    .para8{
+        position: relative;
+        top: 80px;
+        font-size: 20px;
+    }
+    .para9{
+        position: relative;
+        top: 90px;
+        font-size: 20px;
+    }
+
+     .img14{
+        position: relative;
+        left: 670px;
+        top: 130px;
+        border-radius: 200px;
+    }
+
+    .head11{
+        position: relative;
+        top: 55px;
+        font-size: 30px;
+    
+    }
+
+    .head12{
+        position: relative;
+        top: 160px;
+        font-size: 20px;
+    
+    }
+
+    .five5{
+        height: 600px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .head13{
+       
+        position: relative;
+        top: 50px;
+        left: 520px;
+        font-size: 100px;
+        color: white;
+    }
+
+    .head14{
+       
+        position: relative;
+        top: 40px;
+        left: 480px;
+    }
+
+    .head15{
+        
+        position: relative;
+        top: -30px;
+        left: 580px;
+    }
+    
+    .containor1{
+        height: 90vh;
+        width: 100%;
+        background-image: url("bigice.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fifth51{
+        height: 1200px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .two11{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        float: left;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 30px;
+        position: relative;
+        top: 30px;
+    }
+
+     .two21{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        float: left;
+         border-radius: 10px;
+         margin-top: 20px;
+        margin-right: 30px;
+        position: relative;
+        top: 30px;
+    }
+     .two31{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        float: left;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-right: 20px;
+        position: relative;
+        top: 30px;
+    }
+    
+     .two41{
+        height: 330px;
+        width: 23%;
+        background-color: white;
+        margin-left: 75%;
+        margin-top: 20px;
+         border-radius: 10px;
+         position: relative;
+        top: 30px;
+        
+    }
+
+    .btn13{
+        position: relative;
+        height: 40px;
+        width: 10%;
+        padding: 10px;
+        left: 650px;
+        top: 60px;
+        border-radius: 20px;
+        background-color: pink;
+        color: white;
+    }
+
+
+    .head_a{
+        position: relative;
+        top: 150px;
+        font-size: 30px;
+    
+    }
+
+    .head_b{
+        position: relative;
+        top: 150px;
+        font-size: 30px;
+    
+    }
+
+
+    .head_c{
+        position: relative;
+        top: 10px;
+        font-size: 30px;
+    
+    }
+
+    .img131{
+        position: relative;
+        left: 1000px;
+        top: 50px;
+    }
+
+    .img141{
+        position: relative;
+        left: 960px;
+        top: 130px;
+        border-radius: 200px;
+    }
+
+     .head_a1{
+        position: relative;
+        top: 150px;
+        font-size: 30px;
+        left: 300px;
+    
+    }
+
+    .head121{
+        position: relative;
+        top: 160px;
+        font-size: 20px;
+        left: 1000px;
+    
+    }
+
+    .para71{
+        position: relative;
+        top: 70px;
+        font-size: 20px;
+        left: 500px;
+    }
+
+     .para72{
+        position: relative;
+        top: 47px;
+        font-size: 20px;
+        left: 800px;
+    }
+
+    .para81{
+        position: relative;
+        top: 60px;
+        font-size: 20px;
+        left: 500px;
+    }
+    .para91{
+        position: relative;
+        top: 70px;
+        font-size: 20px;
+         left: 500px;
+    }
+
+     .para92{
+        position: relative;
+        top: 50px;
+        font-size: 20px;
+         left: 830px;
+    }
+
+    .fourth41{
+        height: 655px;
+        width: 100%;
+        background-color: violet;
+        text-align: center;
+     }
+
+     .btn101{
+        position: relative;
+        height: 40px;
+        width: 5%;
+        background-color: palevioletred;
+        border-radius: 20px;
+        left: -500px;
+        top: 55px;
+     }
+
+     .btn102{
+        position: relative;
+        height: 40px;
+        width: 6%;
+        background-color:aqua;
+        border-radius: 20px;
+        left: -480px;
+         top: 55px;
+     }
+
+     .btn103{
+        position: relative;
+        height: 40px;
+        width: 6%;
+        background-color: aqua;
+        border-radius: 20px;
+        left: -460px;
+        top: 55px;
+     }
+
+     .btn104{
+        position: relative;
+        height: 40px;
+        width: 8%;
+        background-color: aqua;
+        border-radius: 20px;
+        left: -440px;
+        top: 55px;
+     }
+
+     .one11{
+        height: 250px;
+        width: 33%;
+        background-color: yellow;
+        position: relative;
+        top: 100px;
+        float: left;
+     }
+
+     .one12{
+        height: 250px;
+        width: 33%;
+        background-color: red;
+        position: relative;
+        top: 100px;
+        float: left;
+     }
+
+     .one13{
+        height: 250px;
+        width: 33%;
+        background-color: blue;
+        position: relative;
+        top: 60px;
+        margin-left: 66%;
+     }
+
+
+     .one14{
+        height: 250px;
+        width: 33%;
+        background-color: aqua;
+        
+        
+        float: left;
+     }
+
+     .one15{
+        height: 250px;
+        width: 33%;
+        background-color: green;
+        float: left;
+     }
+
+     .one16{
+        height: 250px;
+        width: 33%;
+        background-color: purple;
+        margin-left: 66%;
+     }
+
+     .seventh7{
+        height: 600px;
+        width: 100%;
+        background-color: aqua;
+     }
+
+     .tab1{
+        height: 20px;
+        width: 20%;
+        border-radius: 20px;
+        padding: 10px;
+        position: relative;
+        top: 70px;
+        
+       
+     }
+     .tab2{
+        height: 20px;
+        width: 20%;
+        border-radius: 20px;
+        padding: 10px;
+        position: relative;
+        top: 70px;
+        
+       
+     }
+
+     .tab3{
+        height: 20px;
+        width: 42%;
+        border-radius: 20px;
+        padding: 10px;
+        position: relative;
+        top: 90px;
+        
+       
+     }
+
+
+     .tab4{
+       
+        border-radius: 20px;
+        padding: 10px;
+        position: relative;
+        top: 110px;
+        
+       
+     }
+
+     .tab5{
+        height: 20px;
+        width: 42%;
+        border-radius: 20px;
+        padding: 20px;
+        position: relative;
+        top: 130px;
+        background-color: palevioletred;
+        color: white;
+           }
+
+
+        .head55{
+            position: relative;
+            top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+      <h3 class="first">faq</h3>
+      <h3 class="second">help</h3>
+      <h3 class="third">support</h3>
+
+      <img src="insta.jpg" class="one" height="40px" width="70px">
+      <img src="twit.jpg" class="two" height="40px" width="60px">
+      <img src="linkdien.jpg" class="three" height="40px" width="70px">
+      <img src="insta.jpg" class="four" height="40px" width="70px">
+      <img src="yt.jpg" class="five" height="40px" width="70px">
+     
+    </header>
+
+    <nav>
+     <ul>
+        <li class="kkr"><a href="">home</a></li>
+        <li class="csk"><a href="">about</a></li>
+        <li class="dc"><a href="">product</a></li>
+        <li class="rcb"><a href="">service</a></li>
+        <li class="kxp"><a href="">gallery</a></li>
+        <li class="pk"><a href="">contact</a></li>
+        
+     </ul>
+     <h1 class="ice">icecream</h1>
+    </nav>
+
+    <div class="containor">
+        <div class="overlay">
+         <div class="content">
+            <h6 class="head1">TRADITIONAL & DELICIOUS</h6>
+            <h1 class="head2">Traditional Ice Cream </h5>
+            <h1 class="head3">Since 1950</h1>
+            <button class="btn">Learn More</button>
+         </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="div1">
+        <h1 class="head4">TRADITIONAL & DELICIOUS ice</h1>
+        <h1 class="head5">Cream Since 1950</h1>
+
+        <div class="hlo">
+            <h4 class="head6">About Us</h4>
+            <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sint natus recusandae vero. Corporis deleniti porro vel ut fugit, voluptas, asperiores perspiciatis impedit similique animi repellat vitae ea officia numquam culpa alias aperiam eius voluptatibus quia tempora labore suscipit necessitatibus?</p>
+            <button class="btn1">Learn More</button>
+        </div>
+
+
+        <div class="hii">
+            <img src="ic2.jpg" height="425px" width="100%">
+        </div>
+
+        <div class="hil">
+            <h4 class="head7">Our Features</h4>
+            <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur illo doloremque exercitationem expedita, labore possimus. Mollitia debitis quo sequi excepturi quaerat magnam omnis expedita, rem, voluptas ab et saepe quas aut molestiae unde repellat pariatur nostrum? Ex, corporis distinctio.</p>
+            <button class="btn2">Learn More</button>
+        </div>
+        </div>
+
+        <div class="second2">
+        <div class="ab">
+           <img src="ice3.jpg" height="500px" width="100%">
+        </div>
+
+        <div class="vk">
+         <button class="btn3">$99</button>
+         <h1 class="head8">Choclate Ice Cream</h1>
+         <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto facere suscipit fugit cumque quae atque, aliquam quam dolorum tenetur obcaecati soluta delectus ipsa, hic rerum?</p>
+        <button class="btn4">Order Now</button>
+        </div>
+        </div>
+
+        <div class="third3">
+            <div class="head9">
+               <img src="arrow.jpg" height="40px" width="10%">
+               <h1>Best Service We Provide</h1>
+               <h1>For Our Clients</h1>
+        </div>
+
+        <div class="section1">
+           <img src="cir1.jpg" class="img1" height="100px" width="20%">
+           <h1 align="center">Quality Maintain</h1>
+           <p class="para4">Lorem, ipsum dolor. tempore quaerat corporis nisi laboriosam? Voluptatibus ex officiis debitis.</p>
+         <button class="btn5">learn more</button>
+        </div>
+
+        <div class="section2">
+            <img src="cir2.jpg" class="img2" height="100px" width="20%">
+            <h1 align="center">Individual Appproach</h1>
+            <p class="para5">Lorem ipsum adipisic mpore quaerat corporis nisi laboriosam? Voluptatibus ex officiis debitis.</p>
+          <button class="btn6">learn more</button>
+        </div>
+
+        <div class="section3">
+            <img src="cir3.jpg" class="img3" height="100px" width="20%">
+            <h1 align="center">Celebration Ice Cream</h1>
+           <p class="para6">Lorem ipsum  quaerat corporis nisi laboriosam? Voluptatibus ex officiis debitis.</p>
+         <button class="btn7">learn more</button>
+        </div>
+
+        </div>
+
+        <div class="fourth4">
+            <h1>Delicious Ice Cream Made</h1>
+            <h1>From Our Very Own</h1>
+            <h1>Organic Milk</h1>
+
+            <div class="one1">
+                <img src="ice4.jpg"  height="250px" width="100%">
+            </div>
+
+            <div class="one2">
+                <img src="ice5.jpg"  height="250px" width="100%">
+            </div>
+
+            <div class="one3">
+                <img src="ice6.jpg"  height="250px" width="100%">
+            </div>
+
+            <div class="one4">
+                <img src="ice7.jpg" height="250px" width="100%">
+            </div>
+
+            <div class="one5">
+                <img src="ice8.jpg"  height="250px" width="100%">
+            </div>
+
+            <div class="one6">
+                <img src="ice9.jpg"  height="250px" width="100%">
+            </div>
+        </div>
+
+        <div class="fifth5">
+          
+          <img src="arrow.jpg" class="img4" height="40px" width="10%">
+           <h1 class="head55">Best Price We Offer</h1>
+           <h1>ice Cream Lovers</h1>
+
+           <div class="two1">
+               <button class="btn8">$99</button>
+               <img src="cir3.jpg" class="img5" height="110px" width="30%">
+               <h1 class="head10">vanila ice cream</h1>
+               <button class="btn9">order now</button>
+           </div>
+
+            <div class="two2">
+               <button class="btn8">$99</button>
+               <img src="cir1.jpg" class="img6" height="110px" width="30%">
+               <h1 class="head11">vanila ice cream</h1>
+               <button class="btn10">order now</button>
+           </div>
+
+            <div class="two3">
+               <button class="btn8">$99</button>
+               <img src="cir2.jpg" class="img5" height="110px" width="30%">
+               <h1 class="head10">vanila ice cream</h1>
+               <button class="btn11">order now</button>
+           </div>
+
+            <div class="two4">
+               <button class="btn8">$99</button>
+               <img src="cir4.jpg" class="img5" height="110px" width="30%">
+               <h1 class="head10">vanila ice cream</h1>
+               <button class="btn12">order now</button>
+           </div>
+        </div>
+
+        <div class="sixth6">
+         <h1>Experience & Most</h1>
+         <h1>Famous Ice Cream Chefs</h1>
+
+         <div class="three1">
+           <img src="chefs.jpg" class="img7" height="130px" width="30%">
+           <h1 align="center">Full Name</h1>
+           <h3 align="center">Description</h3>
+           <img src="all.jpg" class="img10" height="50px" width="20%">
+         </div>
+
+         <div class="three2">
+           <img src="cheft.jpg" class="img8" height="130px" width="30%">
+           <h1 align="center">Full Name</h1>
+           <h3 align="center">Description</h3>
+           <img src="all.jpg" class="img11" height="50px" width="20%">
+         </div>
+
+         <div class="three3">
+           <img src="chefr.jpg" class="img9" height="130px" width="30%">
+           <h1 align="center">Full Name</h1>
+           <h3 align="center">Description</h3>
+           <img src="all.jpg" class="img12" height="50px" width="20%">
+         </div>
+        </div>
+
+        <div class="four4">
+           <h1 align="center">Clients Say About Our</h1>
+           <h1 align="center">Famous ice Cream</h1>
+
+           <img src="coma.jpg" class="img13" height="35px" width="5%">
+           <p align="center" class="para7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt.</p>
+           <p align="center" class="para8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reprehenderit.</p>
+           <p align="center" class="para9">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+         <img src="chefr.jpg" class="img14" height="130px" width="10%">
+
+         <h4 class="head_a" align="center">Client Name</h4>
+         <h2 class="head12">Profession</h2>
+         
+        </div>
+
+        <div class="five5">
+            <h1 class="head_x"  align="center">Clients Say About Our</h1>
+            <h1 align="center">Famous ice Cream</h1>
+ 
+            <img src="coma.jpg" class="img13" height="35px" width="5%">
+            <p align="center" class="para7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt.</p>
+            <p align="center" class="para8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reprehenderit.</p>
+            <p align="center" class="para9">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <img src="chefs.jpg" class="img14" height="130px" width="10%">
+ 
+          <h4 class="head_b" align="center">Client Name</h4>
+          <h2 class="head12">Profession</h2>
+          
+         </div>
+
+         
+          <div class="containor1">
+              <div class="overlay">
+               <div class="content">
+                  <h1 class="head13">About</h1>
+                  <h5 class="head14">Home</h5>
+                 
+                  <h5 class="head15">About</h5>
+               </div>
+              </div>
+          </div>
+
+
+          <div class="div1">
+            <h1 class="head4">Traditional & Delicious Ice</h1>
+            <h1 class="head5">Cream since 1950</h1>
+    
+            <div class="hlo">
+                <h4 class="head6">About Us</h4>
+                <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sint natus recusandae vero. Corporis deleniti porro vel ut fugit, voluptas, asperiores perspiciatis impedit similique animi repellat vitae ea officia numquam culpa alias aperiam eius voluptatibus quia tempora labore suscipit necessitatibus?</p>
+                <button class="btn1">learn more</button>
+            </div>
+    
+    
+            <div class="hii">
+                <img src="ic2.jpg" height="425px" width="100%">
+            </div>
+    
+            <div class="hil">
+                <h4 class="head7">Our Features</h4>
+                <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur illo doloremque exercitationem expedita, labore possimus. Mollitia debitis quo sequi excepturi quaerat magnam omnis expedita, rem, voluptas ab et saepe quas aut molestiae unde repellat pariatur nostrum? Ex, corporis distinctio.</p>
+                <button class="btn2">Learn More</button>
+            </div>
+            </div>
+
+            <div class="sixth6">
+                <h1>Experience & Most</h1>
+                <h1>Famous Ice Cream Chefs</h1>
+       
+                <div class="three1">
+                  <img src="chefs.jpg" class="img7" height="130px" width="30%">
+                  <h1 align="center">Full Name</h1>
+                  <h3 align="center">Description</h3>
+                  <img src="all.jpg" class="img10" height="50px" width="20%">
+                </div>
+       
+                <div class="three2">
+                  <img src="cheft.jpg" class="img8" height="130px" width="30%">
+                  <h1 align="center">Full Name</h1>
+                  <h3 align="center">Description</h3>
+                  <img src="all.jpg" class="img11" height="50px" width="20%">
+                </div>
+       
+                <div class="three3">
+                  <img src="chefr.jpg" class="img9" height="130px" width="30%">
+                  <h1 align="center">Full Name</h1>
+                  <h3 align="center">Description</h3>
+                  <img src="all.jpg" class="img12" height="50px" width="20%">
+                </div>
+               </div>
+
+
+               
+          
+              <div class="containor1">
+                  <div class="overlay">
+                   <div class="content">
+                      <h1 class="head13">Product</h1>
+                      <h5 class="head14">Home</h5>
+                     
+                      <h5 class="head15">Product</h5>
+                   </div>
+                  </div>
+              </div>
+
+              <div class="fifth51">
+          
+                <img src="arrow.jpg" class="img4" height="40px" width="10%">
+                 <h1>Best Price We Offer</h1>
+                 <h1>Ice Cream Lovers</h1>
+      
+                 <div class="two1">
+                     <button class="btn8">$99</button>
+                     <img src="cir3.jpg" class="img5" height="110px" width="30%">
+                     <h1 class="head10">Vanila Ice Cream</h1>
+                     <button class="btn9">Order Now</button>
+                 </div>
+      
+                  <div class="two2">
+                     <button class="btn8">$99</button>
+                     <img src="cir1.jpg" class="img6" height="110px" width="30%">
+                     <h1 class="head11">Vanila Ice Cream</h1>
+                     <button class="btn10">Order Now</button>
+                 </div>
+      
+                  <div class="two3">
+                     <button class="btn8">$99</button>
+                     <img src="cir2.jpg" class="img5" height="110px" width="30%">
+                     <h1 class="head10">Vanila Ice Cream</h1>
+                     <button class="btn11">Order Now</button>
+                 </div>
+      
+                  <div class="two4">
+                     <button class="btn8">$99</button>
+                     <img src="cir4.jpg" class="img5" height="110px" width="30%">
+                     <h1 class="head10">Vanila Ice Cream</h1>
+                     <button class="btn12">Order Now</button>
+                 </div>
+
+                 <div class="two11">
+                    <button class="btn8">$99</button>
+                    <img src="cir3.jpg" class="img5" height="110px" width="30%">
+                    <h1 class="head10">Vanila Ice Cream</h1>
+                    <button class="btn9">Order Now</button>
+                </div>
+     
+                 <div class="two21">
+                    <button class="btn8">$99</button>
+                    <img src="cir1.jpg" class="img6" height="110px" width="30%">
+                    <h1 class="head11">Vanila Ice Cream</h1>
+                    <button class="btn10">Order Now</button>
+                </div>
+     
+                 <div class="two31">
+                    <button class="btn8">$99</button>
+                    <img src="cir2.jpg" class="img5" height="110px" width="30%">
+                    <h1 class="head10">Vanila Ice Cream</h1>
+                    <button class="btn11">Order Now</button>
+                </div>
+     
+                 <div class="two41">
+                    <button class="btn8">$99</button>
+                    <img src="cir4.jpg" class="img5" height="110px" width="30%">
+                    <h1 class="head10">Vanila Ice Cream</h1>
+                    <button class="btn12">Order Now</button>
+                </div>
+                <button class="btn13">Learn More</button>
+
+              </div>
+
+              
+          
+              <div class="containor1">
+                  <div class="overlay">
+                   <div class="content">
+                      <h1 class="head13">Service</h1>
+                      <h5 class="head14">Home</h5>
+                     
+                      <h5 class="head15">Service</h5>
+                   </div>
+                  </div>
+              </div>
+
+
+              <div class="third3">
+            <div class="head9">
+               <img src="arrow.jpg" height="40px" width="10%">
+               <h1>Best Service We Provide</h1>
+               <h1>For Our Clients</h1>
+        </div>
+
+        <div class="section1">
+           <img src="cir1.jpg" class="img1" height="100px" width="20%">
+           <h1 align="center">Quality Maintain</h1>
+           <p class="para4">Lorem, ipsum dolor. tempore quaerat corporis nisi laboriosam? Voluptatibus ex officiis debitis.</p>
+         <button class="btn5">Learn more</button>
+        </div>
+
+        <div class="section2">
+            <img src="cir2.jpg" class="img2" height="100px" width="20%">
+            <h1 align="center">Individual Approrach</h1>
+            <p class="para5">Lorem ipsum adipisic mpore quaerat corporis nisi laboriosam? Voluptatibus ex officiis debitis.</p>
+          <button class="btn6">Learn more</button>
+        </div>
+
+        <div class="section3">
+            <img src="cir3.jpg" class="img3" height="100px" width="20%">
+            <h1 align="center">Celebration Ice Cream</h1>
+           <p class="para6">Lorem ipsum  quaerat corporis nisi laboriosam? Voluptatibus ex officiis debitis.</p>
+         <button class="btn7">Learn more</button>
+        </div>
+
+        </div>
+
+        <div class="four4">
+           <h1 align="center">Clients Say About Our</h1>
+           <h1 align="center">Famous Ice Cream</h1>
+
+           <img src="coma.jpg" class="img131" height="35px" width="5%">
+           <p class="para71">Lorem ipsum dolor sit amet.</p>
+           <p class="para72">Lorem ipsum dolor sit amet.</p>
+           <p class="para81">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reprehenderit.</p>
+           <p class="para91">Lorem ipsum dolor sit.</p>
+           <p class="para92">Lorem ipsum dolor sit amet.</p>
+
+         <img src="chefr.jpg" class="img141" height="130px" width="10%">
+
+         <h4 class="head_a1" align="center">Client Name</h4>
+         <h2 class="head121">Profession</h2>
+         
+        </div>
+
+          
+              <div class="containor1">
+                  <div class="overlay">
+                   <div class="content">
+                      <h1 class="head13">Gallery</h1>
+                      <h5 class="head14">Home</h5>
+                     
+                      <h5 class="head15">Gallery</h5>
+                   </div>
+                  </div>
+              </div>
+
+
+        <div class="fourth41">
+            <h1>Delicious ice Cream </h1>
+            <h1> Made from Our Very</h1>
+            <h1>Own Organic Milk</h1>
+             
+            <button class="btn101">All</button>
+            <button class="btn102">Cone</button>
+            <button class="btn103">Vanila</button>
+            <button class="btn104">Choclate</button>
+
+            <div class="one11">
+                <img src="ic2.jpg" height="250px" width="100%">
+            </div>
+
+            <div class="one12">
+            <img src="ice3.jpg" height="250px" width="100%">
+            </div>
+
+            <div class="one13">
+               <img src="ice4.jpg" height="250px" width="100%">
+            </div>
+
+            <div class="one14">
+            <img src="ice5.jpg" height="250px" width="100%">
+            </div>
+
+            <div class="one15">
+             <img src="ice6.jpg" height="250px" width="100%">
+            </div>
+
+            <div class="one16">
+            <img src="ice7.jpg" height="250px" width="100%">
+            </div>
+
+        </div>
+
+        
+          
+              <div class="containor1">
+                  <div class="overlay">
+                   <div class="content">
+                      <h1 class="head13">Contact</h1>
+                      <h5 class="head14">Home</h5>
+                     
+                      <h5 class="head15">Contact</h5>
+                   </div>
+                  </div>
+              </div>
+            
+            <div class="seventh7">
+              <h1 align="center">Contact Us For Any Query</h1>
+
+              <div align="center">
+               <input type="text" class="tab1" name="fname" placeholder="Your Name">
+               <input type="text" class="tab2"  name="father name" placeholder="Your Email"><br>
+               <input type="text" class="tab3"  name="father name" placeholder="Subject"><br>
+               <textarea name="message" class="tab4" cols="80" rows="10">Message</textarea><br>
+               <button class="tab5">Send Message</button>
+            </div><br>
+
+            </div>
+
+
+
+           
+
+
+              
+ 
+
+    </main>
+</body>
+</html>
